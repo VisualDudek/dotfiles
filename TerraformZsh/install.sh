@@ -2,4 +2,4 @@
 
 set -e
 
-ln -sf "/home/vscode/dotfiles/.zshrc" "${HOME}/.zshrc"
+ln -sf "/home/vscode/dotfiles/TerraformZsh/.zshrc" "${HOME}/.zshrc"
