@@ -75,6 +75,7 @@ plugins=(git terraform)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+RPROMPT='$(tf_version_prompt_info)'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
