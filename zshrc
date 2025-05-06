@@ -14,9 +14,16 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias n="nvim"
+alias fd="fdfind"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 source <(fzf --zsh)
 
 eval "$(zoxide init zsh)"
+
+# fzf
+# Print tree structure in the preview window
+export FZF_ALT_C_OPTS="
+  --walker-skip .git,node_modules,target
+  --preview 'tree -C {}'"
