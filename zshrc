@@ -25,5 +25,6 @@ eval "$(zoxide init zsh)"
 # fzf
 # Print tree structure in the preview window
 export FZF_ALT_C_OPTS="
-  --walker-skip .git,node_modules,target
+  --walker=dir,follow
+  --walker-skip .git
   --preview 'tree -C {}'"
