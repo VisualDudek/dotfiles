@@ -8,7 +8,7 @@ ZSH_THEME="robbyrussell"
 
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
-plugins=(git)
+plugins=(git fzf-tab)
 
 source $ZSH/oh-my-zsh.sh
 
