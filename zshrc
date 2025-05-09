@@ -28,3 +28,8 @@ export FZF_ALT_C_OPTS="
   --walker=dir,follow
   --walker-skip .git
   --preview 'tree -C {}'"
+
+# borg
+# setup BORG_REPO so you don't have to type the full path
+# every time.
+export BORG_REPO=/mnt/archive/borg_archive
