@@ -15,6 +15,8 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias n="nvim"
 alias fd="fdfind"
+alias b="borg"
+alias htop="TERM=xterm-256color htop" # bc of Ghostty terminfo
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
@@ -33,3 +35,6 @@ export FZF_ALT_C_OPTS="
 # setup BORG_REPO so you don't have to type the full path
 # every time.
 export BORG_REPO=/mnt/archive/borg_archive
+
+# yazi
+export EDITOR=nvim
